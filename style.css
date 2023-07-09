@@ -1,0 +1,319 @@
+body{
+    background: rgb(196, 94, 94);
+    font-size: 35px;
+}
+#container{
+    border: 1px solid rgb(0, 0, 0);
+    display: block;
+    width: 500px;
+    height: 600px;
+    margin: auto;
+    padding: 20px 0;
+    justify-content: center;
+    background: rgb(85, 82, 82);
+}
+#resultado{
+    border: 2px solid rgb(20, 20, 20);
+    display: flex;
+    margin:auto; 
+    width: 400px;
+    height: 70px;
+    background: rgba(190, 190, 190, 0.753);
+    color: black;
+    align-items: center;
+    justify-content: end;
+}
+#botoes{
+    border: 1px solid rgb(0, 0, 0);
+    display: flex;
+    margin: 20px auto;
+    width: 400px;
+    height: 500px;
+    background: rgb(85, 82, 82);
+    flex-direction: column;
+    color: white;
+}
+#botoes li:hover{
+    background: rgb(41, 40, 40);
+}
+#linha1{
+    display: block;
+    margin: 0px auto;
+    width: 360px;
+    height: 75px;
+    flex-direction: row;
+}
+#CE{
+    border: 1px solid rgb(34, 34, 34);
+    display: flex;
+    height: 75px;
+    width: 90px;
+    margin-left: -40px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background: rgba(36, 34, 34, 0.623);
+}
+#C{
+    border: 1px solid rgb(34, 34, 34);
+    display: flex;
+    height: 75px;
+    width: 90px;
+    margin: -76px 60px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background: rgba(36, 34, 34, 0.623);
+}
+#raiz{
+    border: 1px solid rgb(34, 34, 34);
+    display: flex;
+    height: 75px;
+    width: 90px;
+    margin: 0px 163px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background: rgba(36, 34, 34, 0.623);
+}
+#div{
+    border: 1px solid rgb(34, 34, 34);
+    display: flex;
+    height: 75px;
+    width: 90px;
+    margin: -77.4px 267px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 60px;
+    background: rgba(36, 34, 34, 0.623);
+}
+#linha2{
+    
+    display: block;
+    margin: 10px auto;
+    width: 360px;
+    height: 75px;
+    flex-direction: row;
+    font-size: 45px;
+}
+#sete{
+    border: 1px solid rgb(34, 34, 34);
+    display: flex;
+    height: 75px;
+    width: 90px;
+    margin-left: -42px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background: rgb(0, 0, 0);
+}
+#oito{
+    border: 1px solid rgb(34, 34, 34);
+    display: flex;
+    height: 75px;
+    width: 90px;
+    margin: -77px 60px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background: rgb(0, 0, 0);
+}
+#nove{
+    border: 1px solid rgb(34, 34, 34);
+    display: flex;
+    height: 75px;
+    width: 90px;
+    margin: 1px 163px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background: rgb(0, 0, 0);
+}
+#mult{
+    border: 1px solid rgb(34, 34, 34);
+    display: flex;
+    height: 75px;
+    width: 90px;
+    margin: -77px 267px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background: rgba(36, 34, 34, 0.623);
+}
+#linha3{
+    
+    display: block;
+    margin: 0px auto;
+    width: 360px;
+    height: 75px;
+    flex-direction: row;
+    font-size: 45px;
+}
+#quatro{
+    border: 1px solid rgb(34, 34, 34);
+    display: flex;
+    height: 75px;
+    width: 90px;
+    margin-left: -42px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background: rgb(0, 0, 0);
+}
+#cinco{
+    border: 1px solid rgb(34, 34, 34);
+    display: flex;
+    height: 75px;
+    width: 90px;
+    margin: -77px 60px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background: rgb(0, 0, 0);
+}
+#seis{
+    border: 1px solid rgb(34, 34, 34);
+    display: flex;
+    height: 75px;
+    width: 90px;
+    margin: 1px 163px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background: rgb(0, 0, 0);
+}
+#sub{
+    border: 1px solid rgb(34, 34, 34);
+    display: flex;
+    height: 75px;
+    width: 90px;
+    margin: -77px 267px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 80px;
+    background: rgba(36, 34, 34, 0.623);
+}
+#linha4{
+   
+    display: block;
+    margin: 10px auto;
+    width: 360px;
+    height: 75px;
+    flex-direction: row;
+    font-size: 45px;
+}
+#um{
+    border: 1px solid rgb(34, 34, 34);
+    display: flex;
+    height: 75px;
+    width: 90px;
+    margin-left: -42px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background: rgb(0, 0, 0);
+}
+#dois{
+    border: 1px solid rgb(34, 34, 34);
+    display: flex;
+    height: 75px;
+    width: 90px;
+    margin: -77px 60px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background: rgb(0, 0, 0);
+}
+#tres{
+    border: 1px solid rgb(34, 34, 34);
+    display: flex;
+    height: 75px;
+    width: 90px;
+    margin: 1px 163px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background: rgb(0, 0, 0);
+}
+#soma{
+    border: 1px solid rgb(34, 34, 34);
+    display: flex;
+    height: 75px;
+    width: 90px;
+    margin: -77px 267px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 80px;
+    background: rgba(36, 34, 34, 0.623);
+}
+#linha5{
+    display: flex;
+    margin: 10px auto;
+    width: 360px;
+    height: 75px;
+    flex-direction: row;
+    font-size: 45px;
+}
+#maisoumenos{
+    border: 1px solid rgb(34, 34, 34);
+    display: flex;
+    height: 75px;
+    width: 90px;
+    margin-left: -42px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background: rgb(0, 0, 0);
+}
+#zero{
+    border: 1px solid rgb(34, 34, 34);
+    display: flex;
+    height: 75px;
+    width: 90px;
+    margin: 0px 10px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background: rgb(0, 0, 0);
+}
+#ponto{
+    border: 1px solid rgb(34, 34, 34);
+    display: flex;
+    height: 75px;
+    width: 90px;
+    margin: 0px 0px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background: rgb(0, 0, 0);
+}
+#igual{
+    border: 1px solid rgb(34, 34, 34);
+    display: flex;
+    height: 75px;
+    width: 90px;
+    margin: 0px 0px 0px 14px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 80px;
+    background: rgba(172, 170, 170, 0.623);
+}
+h1{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+
+

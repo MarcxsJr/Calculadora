@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="container">
+        <div id="resultado">
+        </div>
+        <div id="botoes">
+            <ul id="linha1">
+                <li id="CE" onclick="clean()">CE</li>
+                <li id="C" onclick="C()">C</li>
+                <li id="raiz" onclick="back()"><</li>
+                <li id="div" onclick="op('/')">÷</li>
+            </ul>
+            <ul id="linha2">
+                <li id="sete" onclick="insert('7')" value="7">7</li>
+                <li id="oito" onclick="insert('8')" value="8">8</li>
+                <li id="nove" onclick="insert('9')" value="9">9</li>
+                <li id="mult" onclick="op('*')">X</li>
+            </ul>
+            <ul id="linha3">
+                <li id="quatro" onclick="insert('4')" value="4">4</li>
+                <li id="cinco" onclick="insert('5')" value="5">5</li>
+                <li id="seis" onclick="insert('6')" value="6">6</li>
+                <li id="sub" onclick="op('-')">-</li>
+            </ul>
+            <ul id="linha4">
+                <li id="um" onclick="insert('1')" value="1">1</li>
+                <li id="dois" onclick="insert('2')" value="2">2</li>
+                <li id="tres" onclick="insert('3')" value="3">3</li>
+                <li id="soma" onclick="op('+')">+</li>
+            </ul>
+            <ul id="linha5">
+                <li id="maisoumenos" onclick="op('**')">x²</li>
+                <li id="zero" onclick="insert('0')" value="0">0</li>
+                <li id="ponto" onclick="op(',')">,</li>
+                <li id="igual" onclick="calc()"> = </li>
+            </ul>
+            <h1>
+                <a href="https://github.com/MarcxsJr" target="_blank">Calculadora do Marcos</a>
+            </h1>
+        </div>        
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
